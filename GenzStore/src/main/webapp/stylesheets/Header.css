@@ -1,0 +1,106 @@
+header {
+  background-color: white;
+  display: flex;
+  justify-content: space-evenly; /* Changed from space-evenly to space-between */
+  align-items: center;
+  /* position: fixed;   */
+  /* width: 100%; */
+  padding-left: 8rem;
+  padding-right: 8rem;
+  z-index: 66;
+}
+
+header ul {
+  display: flex;
+  list-style: none;
+}
+
+header ul li {
+  padding-left: 2rem;
+  font-size: 20px;
+  font-family: "poppins";
+  font-weight: 500;
+}
+
+header ul li a {
+  color: black;
+  font-size: 20px;
+  font-family: "poppins";
+  font-weight: 500;
+  text-decoration: none;
+}
+
+header ul li:hover {
+  cursor: pointer;
+  color: #9562ff;
+  font-family: "poppins";
+  font-weight: 500;
+}
+
+.icons {
+  display: flex;
+  align-items: center; /* Removed justify-content: space-between; */
+}
+
+.icons i {
+  color: #9562ff;
+  font-size: 26px;
+  margin-left: 2rem;
+  font-weight: 600;
+}
+
+.logo {
+  height: 90px;
+  width: 100px;
+}
+
+.login button {
+  width: 100%;
+  border: none;
+  padding: 15px 30px;
+  background-color: #9562ff;
+  border-radius: 10px;
+  font-size: 20px;
+  color: white;
+  font-weight: 600;
+  
+}
+
+.login-btn{
+text-decoration: none;
+  border: none;
+ padding: 15px 30px;
+  margin: 0 0 0 1rem;
+  background-color: #9562ff;
+  border-radius: 10px;
+  font-size: 20px;
+  color: white;
+  font-weight: 600;
+}
+/* Search Icon Styles */
+.icons .search-icon {
+  background-color: white;
+  margin-left: 5rem; /* Changed from margin: 0 0 0 5rem; */
+  height: 3rem;
+  width: 19rem;
+  display: flex;
+  align-items: center;
+  border-radius: 4rem;
+  border: 1px solid #9562ff;
+}
+
+.search-icon i {
+  margin-left: 18px;
+  padding-right: 1rem;
+  color: #9562ff;
+  font-size: 1.4rem;
+}
+
+.search-icon input {
+  border: none;
+  outline: none;
+  height: 90%;
+  width:60%;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+}

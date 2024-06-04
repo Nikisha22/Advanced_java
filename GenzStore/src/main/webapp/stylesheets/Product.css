@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+/* Product strat -------------------------------------------------------------------------- */
+body{
+    font-family: "Poppins", sans-serif;
+   
+    background-color: red;
+}
+.main{
+	 padding-left: 8rem;
+    padding-right: 8rem;
+}
+
+.product-name{
+    margin-top: 2rem;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .product-name .prod-1{
+    font-size: 36px;
+    font-weight: 700;
+  
+  }
+  .product-name .pro2{
+    font-size: 20px;
+    font-weight: 500;
+  
+  }
+  .main .title{
+ padding-left:34rem;
+
+  }
+  .product{
+    display: flex;
+    margin-top: 1.3rem;
+    flex-wrap: wrap;
+  }
+  .product-list{
+    background-color: #ffffff;
+    height: 26rem;
+    width: 300px;
+    box-shadow: 3px 3px .6em  rgb(233, 233, 233), -0.7em 0 .6em rgb(233, 233, 233);
+    border-radius: 20px;
+    margin-bottom: 2rem;
+      margin-left: 1.2rem;
+
+  }
+
+  .product-list .p1{
+    font-weight: 700;
+    margin: -3rem 0 0 2rem;
+    font-family: "Poppins", sans-serif;
+  }
+  .product-list .p3{
+    margin: 0rem 0 0 2rem;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .product-list .p2{
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 0.3rem;
+    color: #FF833D;
+    font-family: "Poppins", sans-serif;
+  }
+  .product-btn .button{     /*Add to cart*/
+    width: 80%;
+    border: none;
+    padding: 15px;
+    margin: 1.2rem 0 0 2rem;
+  background-color: #FF833D;
+  border-radius: 10px;
+  font-size: 20px;
+  color: white;
+  font-weight: 600;
+  
+  }
+  .product-list .quantity{
+    display: flex;
+    margin-left: 2rem;
+    margin-top: 8px;
+  }
+  
+  .quantity .plus {
+    height: 3rem;
+    width: 3rem;
+    border: 2px solid #B4B4B4;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .quantity .one {
+    height: 3rem;
+    width: 3.3rem;
+    border: 2px solid #B4B4B4;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0.3rem;
+  
+  }
+  .quantity .minus {
+    height: 3rem;
+    width: 3rem;
+    border: 2px solid #B4B4B4;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0.3rem;
+  
+  }
+  
+  /* Product end----------------------------------------------------------------------------------------------------- */
+  

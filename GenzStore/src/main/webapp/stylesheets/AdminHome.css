@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed; /* Make the header fixed */
+    width: 100%; /* Set the width to 100% */
+    z-index: 22; /* Set a higher z-index to keep it above other content */
+}
+  .logo {
+    font-size: 18px;
+    padding-left: 2rem;
+    display: flex;
+   align-items: center;
+  }
+  .logo h1{
+    padding-left: 2rem;
+  }
+  .logo  img{
+   height: 80px;
+   width: 80px;
+  }
+  
+  .admin-title {
+    font-weight: bold;
+  }
+  
+ 
+.sidebar {
+    background-color: #c6befc;
+    width: 200px;
+    height: 100%;
+    position: fixed; /* Make the sidebar fixed */
+    left: 0;
+    top: 0;
+    overflow-y: auto; /* Add scrollbar if content overflows */
+    z-index: 1; /* Set a higher z-index to keep it above other content */
+}
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    padding-top:15rem;
+    
+  }
+  
+  .sidebar ul li {
+    padding: 10px;
+    margin-left: 2rem;
+    font-family: 'poppins',sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+.main-content {
+    margin-left: 200px; /* Adjust margin to accommodate the width of the sidebar */
+    padding-top: 8rem; /* Adjust padding to accommodate the height of the header */
+    padding-left: 20px;
+    overflow-y: auto; /* Add scrollbar if content overflows */
+}
+
+  .main-content h2{
+display: flex;
+font-size: 4rem;
+justify-content: center;
+align-items: center;
+margin-right: 8rem;
+flex-direction: column;
+  }
+
+  .admin{
+    color: #7865f1;
+  }
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.logout-btn {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #d9534f;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+}

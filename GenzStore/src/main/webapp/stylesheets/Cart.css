@@ -1,0 +1,125 @@
+@charset "UTF-8";
+body{
+    font-family: 'poppins',sans-serif;
+    background-color: #F6F6F6;
+   
+}
+
+.main{
+    display: flex;
+     margin-left:12rem;
+     margin-right:8rem;
+}
+.list{
+    width: 60%;
+  
+}
+.inner{
+    font-size: 20px;
+    font-weight: 600;
+}
+.container{
+    width: 97%;
+    height: 210px;
+    background-color: white;
+    margin: 2rem 0;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow:3px 3px 1.5em  #d9d9d9;
+}
+
+.container img{
+    padding: 20px;
+    margin-top: 1rem;
+    height: 8rem;
+    width: 10rem;
+}
+.details{
+    margin-left: 1.3rem;
+    margin-top: 0.5rem;
+}
+
+.quantity{
+    /* margin-left: ; */
+}
+
+.quantity .box{
+    margin-left: 1.3rem;
+    height: 3px;
+    width: 5px;
+    padding: 1rem;
+    border-radius: 8px;
+    border: 1.5px solid rgb(183, 183, 183);
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+
+.button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.button .remove{
+    border: none;
+    font-family: 'poppins', sans-serif;
+    border-radius: 12px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: rgb(255, 85, 85);
+}
+.button .buy {
+    border: none;
+    font-family: 'poppins', sans-serif;
+    border-radius: 12px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    padding: 10px 30px;
+    background-color: #FF833D;
+}
+
+.total{
+    background-color: rgb(255, 255, 255);
+    border-radius: 14px;
+    width: 30%;
+    height: 200px;
+    margin: 2rem 0;
+    border-radius: 16px;
+    display: flex;
+    /* justify-content: space-evenly; */
+    box-shadow:3px 3px 1.5em  #d9d9d9;
+    flex-direction: column;
+}
+
+.amount{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.amount h1{
+    font-size: 25px;
+    color: rgb(90, 88, 88);
+}
+.amount h2{
+    font-size: 24px;
+    color: #FF833D;
+}
+.buy2{
+    width: 9rem;
+    border: none;
+    font-family: 'poppins', sans-serif;
+    border-radius: 12px;
+    color: rgb(255, 255, 255);
+    padding: 15px 30px;
+    font-weight: 600;
+    background-color: #FF833D;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
